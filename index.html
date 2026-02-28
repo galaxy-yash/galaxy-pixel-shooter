@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="veiwport" content="width=device-with, initial-scale=1.0">
-        <title>Input Label Animation | CodeByYash</title>
-        <link rel="stylesheet" href="stile.css">
-    </head>
-</html>
-<div class="input-group">
-    <input type="text" required autocomplete="off" class="input">
-    <label class="user-label">First Name</label>
+<html>
+<head>
+    <title>Galaxy Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">Galaxy Shooter</h1>
+<button id="startBtn">START GAME</button>
+
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<canvas id="gameCanvas"></canvas>
+
+<div class="controls">
+    <div class="moveButtons">
+        <button id="leftBtn"><</button>
+        <button id="rightBtn">></button>
+    </div>
+
+    <button id="shootBtn">FIRE</button>
 </div>
+
+<script src="script.js"></script>
+
+<script src="game.js"></script>
 </body>
 </html>
